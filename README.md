@@ -7,7 +7,7 @@ Use confluent billing api to export csv.
 see **https://brew.sh/**
 
 #### 2. In stall "Jq" command
-'''
-> brew install jq
-'''
+
+`> brew install jq`
+
 #### 3. Try the shell script
