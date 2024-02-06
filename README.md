@@ -10,5 +10,15 @@ see **https://brew.sh/**
 
 `> brew install jq`
 
-#### 3. Try the shell script
+#### 3. edit APIkEY and SECRET
+replace APIKEY=XXXXXXXXXXXX...X and SECRET=YYYYYYY...YY with generated credencial.
+
+```
+> vi osx.costapi.sh
+APIKEY=XXXXXXXXXXXXXXXXXXX
+SECRET=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+```
+
+#### 4. Try the shell script
+
 `> /osx.costapi.sh`
