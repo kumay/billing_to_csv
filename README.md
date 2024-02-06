@@ -1,13 +1,13 @@
 # billing_to_csv
 Use confluent billing api to export csv.
 
-#### 1. generate APIKEY and SECERT
+#### 1. Generate APIKEY and SECERT
 1. Go to confluent.cloud
 2. Login (Login user have to be in OrganizationAdmin Role)
 3. Generate cloud API KEY
 4. Download or copy generated APIKEY/SECRET pair.
 
-#### 2. edit APIkEY and SECRET
+#### 2. Edit APIKEY and SECRET
 Replace APIKEY=XXXXXXXXXXXX...X and SECRET=YYYYYYY...YY with generated credencial.
 Edit START_DATE and END_DATE (END_DATE have to be later then START_DATE. i.e. END_DATE > START_DATE).
 
@@ -16,7 +16,7 @@ Edit START_DATE and END_DATE (END_DATE have to be later then START_DATE. i.e. EN
 APIKEY=XXXXXXXXXXXXXXXXXXX
 SECRET=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 ```
-#### 3. execute script 
+#### 3. Execute script 
 
 **Linux**
 ```
@@ -30,11 +30,10 @@ SECRET=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 > /costapi.ps1
 ```
 
-#### 4. you get csv file
+#### 4. You get csv file
 ```
 > billing-<start-date>-<end-date>.csv
 ```
-
 
 ### In case of OSX
 
@@ -45,7 +44,7 @@ see **https://brew.sh/**
 
 `> brew install jq`
 
-#### 3. edit APIkEY and SECRET
+#### 3. Edit APIkEY and SECRET
 replace APIKEY=XXXXXXXXXXXX...X and SECRET=YYYYYYY...YY with generated credencial.
 Edit START_DATE and END_DATE (END_DATE have to be later then START_DATE. i.e. END_DATE > START_DATE).
 ```
@@ -58,7 +57,7 @@ SECRET=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 ```
 > /osx.costapi.sh
 ```
-#### 5. you get csv file in same directory.
+#### 5. You get csv file in same directory.
 ```
 > billing-<start-date>-<end-date>.csv
 ```
