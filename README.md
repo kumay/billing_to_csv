@@ -11,3 +11,4 @@ see **https://brew.sh/**
 `> brew install jq`
 
 #### 3. Try the shell script
+`> /osx.costapi.sh`
